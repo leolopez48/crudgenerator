@@ -1,0 +1,28 @@
+{
+    "name": "leolopez/crudgenerator",
+    "description": "Generates crud for Laravel",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Leolopez\\Crudgenerator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Leonel Lopez",
+            "email": "leonellopez647@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "\\Leolopez\\Crudgenerator\\CrudgeneratorServiceProvider"
+            ],
+            "aliases": {
+                "Crudgenerator": "Leolopez\\Crudgenerator\\Facades\\Crudgenerator"
+            }
+        }
+    }
+}
