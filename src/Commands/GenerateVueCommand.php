@@ -150,6 +150,7 @@ class GenerateVueCommand extends Command
             "{{headers}}" => $headers,
             "{{validations}}" => $validations,
             "{{apiName}}" => $apiName."Api",
+            "{{api}}" => $apiName,
             "{{requestApis}}" => $requestApis,
             "{{requestAssigns}}" => $requestAssigns,
             "{{dataArrays}}" => $dataArrays,

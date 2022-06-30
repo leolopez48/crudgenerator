@@ -332,8 +332,8 @@ export default {
             this.$toastr.e("No fue posible realizar la búsqueda.", "Error");
           });
 
-        this.records = data.{{apiName}};
-        this.recordsFiltered = data.{{apiName}};
+        this.records = data.{{api}};
+        this.recordsFiltered = data.{{api}};
         this.total = data.total;
         this.loading = false;
       }, 500);
