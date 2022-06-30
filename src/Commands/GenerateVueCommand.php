@@ -30,7 +30,7 @@ class GenerateVueCommand extends Command
      */
     public function handle(): int
     {
-        $this->info('Running command to create the model...');
+        $this->info('Running command to create the Vue file...');
 
         // Validating the table name
         try {
